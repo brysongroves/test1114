@@ -5,6 +5,7 @@ require_once 'auth.php';
 
 // Check if user is logged in
 // ANY STUPID COMMENT
+// ANOTHER STUPID COMMENT BECAUSE I NEED 3 COMMITS
 if (!is_logged_in()) {
     header('Location: login.php');
     exit;
