@@ -4,6 +4,7 @@ session_start();
 require_once 'auth.php';
 
 // Check if user is logged in
+// ANY STUPID COMMENT
 if (!is_logged_in()) {
     header('Location: login.php');
     exit;
@@ -11,8 +12,8 @@ if (!is_logged_in()) {
 
 $host = 'localhost'; 
 $dbname = 'books'; 
-$user = 'mark'; 
-$pass = 'mark';
+$user = 'bryson'; 
+$pass = 'bryson';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
